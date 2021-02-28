@@ -3,7 +3,10 @@ export default {
     title: 'Codingfan',
     description: 'front-end, python, 北海道,　などなど'
   },
-  plugin: [
+  plugins: [
 
   ],
+  flags: {
+    THE_FLAG: false
+  },
 }
