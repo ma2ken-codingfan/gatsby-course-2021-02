@@ -1,9 +1,16 @@
 import React from 'react'
+import Layout from '../components/Layout'
+import styled from 'styled-components'
+
+const StyledTitle = styled.h1`
+  color: ${({ theme }) => theme.color.text}
+`
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <Layout>
+      <StyledTitle>Hello World</StyledTitle>
+      <p></p>
+    </Layout>
   )
 }
