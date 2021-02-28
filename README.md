@@ -4,6 +4,7 @@
 
 [Gatsby JS Course:](https://www.youtube.com/watch?v=2PYvMe9XQhc&list=PLES9xDLeGEFUE2kfe17OBS5D18cwSUCqR&index=2)
 [Gatsbyjs](https://www.gatsbyjs.com/docs/)
+[gitignre](https://github.com/gatsbyjs/gatsby/blob/master/.gitignore)
 
 ## install
 

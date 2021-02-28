@@ -4,7 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "cross-env NODE_OPTIONS=\"-r esm\" gatsby develop",
+    "start": "npm run develop"
+  },
+  "eslintConfig": {
+    "extends": [
+      "wesbos"
+    ],
+    "rules": {
+      "react/prop-types": 0
+    }
   },
   "keywords": [],
   "author": "",
